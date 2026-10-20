@@ -1,23 +1,18 @@
-# Home Lab Portfolio Website
+# Miguel Quiroz — IT Project Portfolio
 
-This is a static portfolio site for Miguel Quiroz's Windows Server and Active Directory home lab projects.
+A static, responsive site for documenting hands-on technical projects. Current featured work includes Windows Server, Active Directory, and file sharing and access control. The portfolio can grow with projects from other areas over time.
 
 ## Preview locally
 
-Open `index.html` in a web browser. Project screenshots and downloadable PDF documents are stored in the `assets` folder. The site works without a build step. An internet connection is only needed for the optional Google Fonts; the browser uses local fallback fonts otherwise.
+Open `index.html` in a browser. Project screenshots and downloadable PDFs are stored in `assets/`. The site has no build step. Google Fonts are optional; local fallback fonts are used when offline.
 
 ## Publish with GitHub Pages
 
-1. Create a repository for the website or use a repository you control.
-2. Upload the contents of this folder so `index.html` is at the repository root.
-3. In repository settings, open **Pages** and choose the branch and root folder to publish.
-4. Add the published address to your resume.
-
-Publishing makes the site and its downloadable PDFs publicly accessible. Review the included screenshots and documents before publishing if you want to remove lab-specific details.
+The site is published from the `main` branch at the repository root. The portfolio page is available at <https://miguelquiroz1201.github.io/>.
 
 ## Included
 
 - Responsive, one-page portfolio site
 - Five evidence screenshots with click-to-enlarge viewing
-- Three downloadable project PDFs
-- Links to both public GitHub project repositories
+- Two downloadable project PDFs
+- Links to the two current public project repositories
