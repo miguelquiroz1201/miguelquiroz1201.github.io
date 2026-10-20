@@ -4,8 +4,8 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta name="theme-color" content="#10222c">
-  <meta name="description" content="Miguel Quiroz's Windows Server and Active Directory home lab portfolio, with project notes, evidence screenshots, and GitHub repositories.">
-  <title>Miguel Quiroz | Home Lab Portfolio</title>
+  <meta name="description" content="Hands-on IT projects and notes by Miguel Quiroz.">
+  <title>Miguel Quiroz | IT Projects</title>
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=DM+Mono:wght@400;500&family=DM+Sans:wght@400;500;600;700&family=Manrope:wght@400;500;600;700;800&display=swap" rel="stylesheet">
@@ -16,10 +16,10 @@
   <header class="site-header">
     <a class="brand" href="#top" aria-label="Miguel Quiroz, home">
       <span class="brand-mark" aria-hidden="true">MQ</span>
-      <span>Miguel Quiroz<span class="brand-sub">IT HOME LAB</span></span>
+      <span>Miguel Quiroz<span class="brand-sub">IT PROJECTS</span></span>
     </a>
     <nav class="main-nav" aria-label="Main navigation">
-      <a href="#projects">Projects</a><a href="#documents">Documentation</a>
+      <a href="#projects">Projects</a><a href="#documents">Write-ups</a>
       <a class="nav-github" href="https://github.com/miguelquiroz1201" target="_blank" rel="noopener noreferrer">GitHub <span aria-hidden="true">↗</span></a>
     </nav>
   </header>
@@ -27,41 +27,28 @@
     <section class="hero" id="top">
       <div class="hero-grid" aria-hidden="true"></div>
       <div class="hero-copy">
-        <h1>IT Project<br><span>Portfolio</span></h1>
-        <p class="hero-intro">Hands-on technical projects, documented with the process, details, and evidence behind each one.</p>
-        <div class="hero-actions"><a class="button button-light" href="#projects">Explore the projects <span aria-hidden="true">↓</span></a><a class="text-link hero-link" href="https://github.com/miguelquiroz1201" target="_blank" rel="noopener noreferrer">Browse my GitHub <span aria-hidden="true">↗</span></a></div>
+        <p class="eyebrow"><span class="status-dot" aria-hidden="true"></span>MIGUEL QUIROZ · IT PROJECTS</p>
+        <h1>My IT<br><span>projects.</span></h1>
+        <p class="hero-intro">I use this site to keep notes on what I set up, how I tested it, and what I learned. I’ll add other projects as I work on them.</p>
+        <div class="hero-actions"><a class="button button-light" href="#projects">See current projects <span aria-hidden="true">↓</span></a><a class="text-link hero-link" href="https://github.com/miguelquiroz1201" target="_blank" rel="noopener noreferrer">My GitHub <span aria-hidden="true">↗</span></a></div>
       </div>
-      <div class="hero-visual" aria-label="A simplified diagram of the lab environment">
-        <div class="diagram-label">PROJECT WORKFLOW <span>PORTFOLIO</span></div>
-        <div class="diagram-domain"><span class="domain-icon">01</span><div><strong>Project portfolio</strong><small>HANDS-ON TECHNICAL WORK</small></div><span class="live-tag">GROWING</span></div>
-        <div class="diagram-connector"></div>
-        <div class="diagram-server"><span class="server-icon"><i></i><i></i><i></i></span><div><strong>Documented work</strong><small>PROCESS · DETAILS · RESULTS</small></div><span class="node-tag">ROOM TO EXPAND</span></div>
-        <div class="diagram-branches"><span></span><span></span><span></span></div>
-        <div class="diagram-nodes"><div><b>Projects</b><small>HANDS-ON WORK</small></div><div><b>Evidence</b><small>NOTES + SCREENSHOTS</small></div><div><b>Links</b><small>SOURCE MATERIAL</small></div></div>
-        <div class="diagram-foot"><span>PROJECTS</span><span>DOCUMENTATION</span><span>WHAT'S NEXT</span></div>
-      </div>
-      <div class="hero-bottom"><span>HANDS-ON PRACTICE</span><span class="hero-rule"></span><span>DOCUMENTED ON GITHUB</span></div>
-    </section>
-    <section class="intro section-wrap">
-      <div class="section-kicker">01 <span>OVERVIEW</span></div>
-      <div class="intro-text"><h2>A portfolio designed to grow with each project.</h2><p>Project write-ups, technical details, evidence, and repository links come together in one place. The portfolio can expand over time as new work is added across different areas.</p></div>
     </section>
     <section class="projects section-wrap" id="projects">
-      <div class="section-heading projects-heading"><div><div class="section-kicker">02 <span>PROJECTS</span></div><h2>Projects</h2></div></div>
+      <div class="section-heading projects-heading"><div><div class="section-kicker">01 <span>CURRENT WORK</span></div><h2>What I’ve built so far.</h2></div><p>These are the projects I’ve documented so far. I’ll add new work here as I move into other areas.</p></div>
       <article class="project-card project-ad">
-        <div class="project-topline"><span class="project-index">PROJECT 01</span><span class="project-type">WINDOWS SERVER · ACTIVE DIRECTORY</span></div>
+        <div class="project-topline"><span class="project-type">WINDOWS SERVER · ACTIVE DIRECTORY</span></div>
         <div class="project-layout">
           <div class="project-copy">
             <h3>Active Directory<br>Home Lab</h3>
-            <p class="project-lead">Set up a Windows domain and practiced the core account and directory tasks that support a small organization.</p>
+            <p class="project-lead">I set up a Windows domain, organized users and groups, and checked that DNS and the domain shares were working.</p>
             <ul class="project-points">
               <li>Installed Active Directory Domain Services and configured DC01 for <code>homelab.local</code>.</li>
-              <li>Organized accounts into IT, HR, Finance, Sales, and Workstations organizational units.</li>
-              <li>Created user accounts and security groups, updated memberships, and practiced password changes.</li>
-              <li>Checked DNS resolution with <code>nslookup</code> and verified SYSVOL and NETLOGON shares.</li>
+              <li>Created organizational units for IT, HR, Finance, Sales, and Workstations.</li>
+              <li>Added user accounts and security groups, then updated memberships and passwords.</li>
+              <li>Used <code>nslookup</code> to check DNS and confirmed the SYSVOL and NETLOGON shares were available.</li>
             </ul>
             <div class="tag-list"><span>Windows Server 2022</span><span>Active Directory</span><span>DNS</span><span>VMware</span></div>
-            <a class="button button-dark" href="https://github.com/miguelquiroz1201/Windows-Server-Active-Directory-HomeLab" target="_blank" rel="noopener noreferrer">View project repository <span aria-hidden="true">↗</span></a>
+            <a class="button button-dark" href="https://github.com/miguelquiroz1201/Windows-Server-Active-Directory-HomeLab" target="_blank" rel="noopener noreferrer">View project on GitHub <span aria-hidden="true">↗</span></a>
           </div>
           <div class="project-media">
             <button class="image-button" type="button" data-lightbox="assets/images/active-directory-console.png" data-caption="Active Directory Users and Computers showing the homelab.local directory." aria-label="Enlarge Active Directory directory screenshot"><img src="assets/images/active-directory-console.png" alt="Active Directory Users and Computers window showing the homelab.local domain." loading="lazy"><span class="image-zoom" aria-hidden="true">↗</span></button>
@@ -71,19 +58,19 @@
         </div>
       </article>
       <article class="project-card project-files">
-        <div class="project-topline"><span class="project-index">PROJECT 02</span><span class="project-type">FILE SHARING · ACCESS CONTROL</span></div>
+        <div class="project-topline"><span class="project-type">FILE SHARES · PERMISSIONS</span></div>
         <div class="project-layout">
           <div class="project-copy">
             <h3>File Sharing &amp;<br>Access Control</h3>
-            <p class="project-lead">Extended the domain lab with department network shares and group-based NTFS permissions, then tested access from Windows 11.</p>
+            <p class="project-lead">I set up department shares, assigned access through security groups, and tested them from a Windows 11 client.</p>
             <ul class="project-points">
-              <li>Created Finance, HelpDesk, HR, IT, and Sales shares under <code>C:\Shares</code>.</li>
-              <li>Used department security groups to manage folder permissions.</li>
-              <li>Validated allowed access by opening shares and creating test files from the client.</li>
-              <li>Checked a denied Finance request to confirm that access restrictions took effect.</li>
+              <li>Created Finance, HelpDesk, HR, IT, and Sales shares under <code>C:Shares</code>.</li>
+              <li>Assigned NTFS permissions through department security groups.</li>
+              <li>Tested access from Windows 11 by opening shares and creating a file.</li>
+              <li>Tried opening the Finance share without access to confirm the denial.</li>
             </ul>
             <div class="tag-list"><span>Windows File Sharing</span><span>NTFS</span><span>Security Groups</span><span>Windows 11</span></div>
-            <a class="button button-dark" href="https://github.com/miguelquiroz1201/File-Sharing-Access-Control" target="_blank" rel="noopener noreferrer">View project repository <span aria-hidden="true">↗</span></a>
+            <a class="button button-dark" href="https://github.com/miguelquiroz1201/File-Sharing-Access-Control" target="_blank" rel="noopener noreferrer">View project on GitHub <span aria-hidden="true">↗</span></a>
           </div>
           <div class="project-media">
             <button class="image-button" type="button" data-lightbox="assets/images/ntfs-permissions-hr.jpg" data-caption="NTFS Security settings showing the HR_Users group on the HR folder." aria-label="Enlarge NTFS permissions screenshot"><img src="assets/images/ntfs-permissions-hr.jpg" alt="Windows folder security settings showing permissions assigned to the HR_Users group." loading="lazy"><span class="image-zoom" aria-hidden="true">↗</span></button>
@@ -92,20 +79,20 @@
               <button class="image-button" type="button" data-lightbox="assets/images/windows-client-share-test.jpg" data-caption="Windows 11 client showing a test file in the IT share." aria-label="Enlarge successful share test screenshot"><img src="assets/images/windows-client-share-test.jpg" alt="Windows client showing a test file in the network IT share." loading="lazy"><span class="image-zoom" aria-hidden="true">↗</span></button>
               <button class="image-button" type="button" data-lightbox="assets/images/access-denied-validation.jpg" data-caption="Windows client displaying access denied when opening the Finance share without permission." aria-label="Enlarge access denied test screenshot"><img src="assets/images/access-denied-validation.jpg" alt="Windows client displaying an access denied message for the Finance network share." loading="lazy"><span class="image-zoom" aria-hidden="true">↗</span></button>
             </div>
-            <p class="image-caption"><span>CLIENT VALIDATION</span> Successful access and a denied request</p>
+            <p class="image-caption"><span>CLIENT TEST</span> Successful access and a denied request</p>
           </div>
         </div>
       </article>
     </section>
     <section class="documents section-wrap" id="documents">
-      <div class="section-heading docs-heading"><div><div class="section-kicker">03 <span>PROJECT DOCUMENTATION</span></div><h2>Notes, steps, and<br>screenshots.</h2></div><p>Download the original write-ups that accompany each repository. They include setup notes and supporting evidence from the lab.</p></div>
+      <div class="section-heading docs-heading"><div><div class="section-kicker">02 <span>WRITE-UPS</span></div><h2>Want the setup details?</h2></div><p>I saved the original notes and screenshots for both projects here.</p></div>
       <div class="document-list">
-        <a class="document-row" href="assets/documents/active-directory-homelab-documentation.pdf" download><span class="doc-icon">PDF</span><span class="doc-text"><strong>Active Directory Home Lab Documentation</strong><small>Full project walkthrough and screenshots</small></span><span class="doc-download">Download <b aria-hidden="true">↓</b></span></a>
-        <a class="document-row" href="assets/documents/file-sharing-and-access-control.pdf" download><span class="doc-icon">PDF</span><span class="doc-text"><strong>File Sharing and Access Control</strong><small>Share setup, group permissions, and client validation</small></span><span class="doc-download">Download <b aria-hidden="true">↓</b></span></a>
+        <a class="document-row" href="assets/documents/active-directory-homelab-documentation.pdf" download><span class="doc-icon">PDF</span><span class="doc-text"><strong>Active Directory Home Lab Documentation</strong><small>Setup notes and screenshots</small></span><span class="doc-download">Download <b aria-hidden="true">↓</b></span></a>
+        <a class="document-row" href="assets/documents/file-sharing-and-access-control.pdf" download><span class="doc-icon">PDF</span><span class="doc-text"><strong>File Sharing and Access Control</strong><small>Share setup and access checks</small></span><span class="doc-download">Download <b aria-hidden="true">↓</b></span></a>
       </div>
     </section>
   </main>
-  <footer class="site-footer"><div class="footer-brand"><span class="brand-mark" aria-hidden="true">MQ</span><span>Miguel Quiroz</span></div><span>IT Project Portfolio</span><a href="#top">Back to top ↑</a></footer>
+  <footer class="site-footer"><div class="footer-brand"><span class="brand-mark" aria-hidden="true">MQ</span><span>Miguel Quiroz</span></div><span>Projects · Write-ups · GitHub</span><a href="#top">Back to top ↑</a></footer>
   <dialog class="lightbox" aria-label="Project screenshot viewer"><button class="lightbox-close" type="button" aria-label="Close image viewer">×</button><img src="" alt=""><p></p></dialog>
   <script src="script.js"></script>
 </body>
